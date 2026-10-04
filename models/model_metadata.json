@@ -1,0 +1,21 @@
+{
+    "model_name": "Gradient Boosting",
+    "features": [
+        "HomeAvgGoalsFor",
+        "HomeAvgGoalsAgainst",
+        "AwayAvgGoalsFor",
+        "AwayAvgGoalsAgainst",
+        "HomePointsPerMatch",
+        "AwayPointsPerMatch",
+        "AttackDifference",
+        "DefenseDifference",
+        "PointsDifference"
+    ],
+    "target": "FTR",
+    "classes": [
+        "H",
+        "D",
+        "A"
+    ],
+    "accuracy": 0.47368421052631576
+}
